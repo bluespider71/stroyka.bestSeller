@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/bluespider71.lwc-lai8m9a2",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve puwf30su1FBao0yxb7jE --open"
+  }
+}

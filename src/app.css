@@ -1,0 +1,30 @@
+.block-products-carousel {
+    pointer-events: none;
+}
+
+.block-products-carousel .block-header {
+    pointer-events: auto;
+}
+
+.block-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+h3.block-header__title {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.block-header__title + .block-header__divider {
+    margin-left: 16px;
+}
+
+.block-header__divider {
+    flex-grow: 1;
+    height: 2px;
+    background: #ebebeb;
+}
