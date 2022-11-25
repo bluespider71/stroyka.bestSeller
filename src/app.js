@@ -18,4 +18,15 @@ export default class App extends LightningElement {
   
   groups = tabs;
 
+  get isGroups() {
+    return (this.groups.length > 0) ? true : false;
+  }
+
+  handleCategoryClick (e) {
+    this.template.querySelectorAll(".block-header__group").forEach((item, index) => {
+      item.className = "block-header__group";
+    })
+    e.target.classList.add("block-header__group--active");
+  }
+
 }

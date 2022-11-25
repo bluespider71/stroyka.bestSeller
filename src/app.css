@@ -28,3 +28,109 @@ h3.block-header__title {
     height: 2px;
     background: #ebebeb;
 }
+
+.block-header__divider + .block-header__groups-list {
+    margin-left: 12px;
+}
+
+.block-header__groups-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.block-header__group {
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+    display: block;
+    color: inherit;
+    padding: 2px 11px 1px;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.block-header__group {
+    background: transparent;
+    border: none;
+    color: #3d464d;
+}
+
+.block-header__group:hover, 
+.block-header__group:active, 
+.block-header__group:focus {
+    box-shadow: 0 0 0 2px #ebebeb inset;
+    color: #3d464d;
+}
+
+.block-header__group--active, 
+.block-header__group--active:focus, 
+.block-header__group--active:hover {
+    cursor: default;
+    box-shadow: 0 0 0 2px #ffd333 inset;
+}
+
+.block-header__groups-list + .block-header__arrows-list {
+    margin-left: 10px;
+}
+
+.block-header__arrows-list {
+    display: flex;
+}
+
+.block-header__arrow {
+    width: 27px;
+    height: 29px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    fill: #999;
+    border-radius: 1.5px;
+    background: #f2f2f2;
+    transition: all 0.15s;
+}
+
+.block-header__arrow--left svg {
+    left: -1px;
+}
+
+.block-header__arrow svg {
+    transform: scaleX(1);
+}
+
+.block-header__arrow--left svg {
+    position: relative;
+}
+
+.block-header__arrow + .block-header__arrow {
+    margin-left: 3px;
+}
+
+.block-header__arrow--right svg {
+    left: 1px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
